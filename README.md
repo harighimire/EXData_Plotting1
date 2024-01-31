@@ -27,14 +27,4 @@
 +     legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 +     plot(Global_reactive_power~Datetime, type="l", ylab="Global Rective Power (kilowatts)",xlab="")
 + })
-> setwd("C:/Users/ASUS/Desktop/R software/exdata_data_household_power_consumption")
-> > data_power <- read.csv("household_power_consumption.txt", header=TRUE, sep=';',nrows=2075259, na.strings="?", 
-Error: unexpected '>' in ">"
-> setwd("C:/Users/ASUS/Desktop/R software/exdata_data_household_power_consumption")
-> data_power <- read.csv("household_power_consumption.txt", header=TRUE, sep=';',nrows=2075259, na.strings="?", 
-+                          +                        check.names=F, stringsAsFactors=FALSE, comment.char="", quote='\"')
-Error: unexpected '=' in:
-"data_power <- read.csv("household_power_consumption.txt", header=TRUE, sep=';',nrows=2075259, na.strings="?", 
-                         +                        check.names="
-> View(data)
-> View(data)
+
